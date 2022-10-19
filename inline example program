@@ -17,3 +17,8 @@ class employee{
     cout<<"the age of employee is "<<age<<endl;
     cout<<"the name of employee is "<<name<<endl;
  }
+int main(){
+    employee e1;
+    e1.getData();
+    e1.putData();
+ }
